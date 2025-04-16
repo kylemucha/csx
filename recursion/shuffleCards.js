@@ -23,24 +23,21 @@
 
 
 function shuffleCards(topHalf, bottomHalf, thCount = 0, bhCount = 0, shuffled = []) {
-    // YOUR CODE HERE
-    if(thCount === topHalf.length){
-      shuffled.push(bottomHalf);
+    if (thCount === topHalf.length && bhCount === bottomHalf.length) {
       return shuffled;
     }
-    if(bhCount === bottomHalf.length){
-      shuffled.push(topHalf);
-      return shuffled;
-    }
-    
-    shuffled.push(topHalf[thCount]);
-    shuffled.push(bottomHalf[bhCount]);
-    
   
-     
-    
-    return shuffleCards(topHalf, bottomHalf, thCount + 1, bhCount + 1, shuffled);
-    
+    if (thCount < topHalf.length) {
+      shuffled.push(topHalf[thCount]);
+      thCount++;
+    }
+  
+    if (bhCount < bottomHalf.length) {
+      shuffled.push(bottomHalf[bhCount]);
+      bhCount++;
+    }
+  
+    return shuffleCards(topHalf, bottomHalf, thCount, bhCount, shuffled);
   }
   
   
