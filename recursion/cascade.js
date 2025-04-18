@@ -17,9 +17,7 @@
 
 function cascade(number) {
 	// Your code here!
-  console.log(number);
-  newNumber = number.replace()
-  console.log(number);
+    //doing some research before trying to solve this problem on my own
 }
 
 
