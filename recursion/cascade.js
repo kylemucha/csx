@@ -15,11 +15,36 @@
 // 1234
 // 12345
 
-function cascade(number) {
-	// Your code here!
-    // still not sure how to solve this problem
-}
+//NO STRING MANIPULATION
 
+function cascade(number) {
+    console.log(number);
+    if (number >= 10) {
+      cascade(Math.floor(number / 10));
+      console.log(number);
+    }
+  }
+  
+  // //WITH STRING MANIPULATION
+  // function cascade(n) {
+  //   console.log(n);
+  //   if (n >= 10) {
+  //     cascade(Number(n.toString().slice(0, -1)));
+  //     console.log(n);
+  //   }
+  // }
+  
+  
+  // // Uncomment to test your work!
+  cascade(345345)
+  // should print
+  /*
+  111
+  11
+  1
+  11
+  111
+  */
 
 
 // // Uncomment to test your work!
