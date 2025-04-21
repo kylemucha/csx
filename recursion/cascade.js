@@ -17,7 +17,7 @@
 
 function cascade(number) {
 	// Your code here!
-    //doing some research before trying to solve this problem on my own
+    // still not sure how to solve this problem
 }
 
 
