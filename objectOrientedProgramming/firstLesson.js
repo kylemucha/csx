@@ -2,4 +2,4 @@
 
 //currently watching videos and reading the information on the website.
 
-// and reading about the positives and trade offs of using Object Oritented Programming.
+// and reading about the positives and trade offs of using Object Oritented Programming
