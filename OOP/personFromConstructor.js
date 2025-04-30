@@ -23,6 +23,6 @@ function PersonConstructor() {
   const mike = personFromConstructor('Mike', 30);
   
   // // Uncomment these lines to check your work!
-  // console.log(mike.name); // -> Logs 'Mike'
-  // console.log(mike.age); // -> Logs 30
-  // mike.greet(); // -> Logs 'hello'
+  console.log(mike.name); // -> Logs 'Mike'
+  console.log(mike.age); // -> Logs 30
+  mike.greet(); // -> Logs 'hello'
