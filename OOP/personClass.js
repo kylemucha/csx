@@ -7,9 +7,6 @@ class PersonClass {
 	constructor(name) {
     // add code here
     this.name = name;
-    // this.greet = function() {
-    //   console.log('hello');
-    // }
 	}
 
 	// add code here
